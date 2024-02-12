@@ -1,6 +1,7 @@
 # Notes App
 
 A simple web application for taking and managing notes.
+![dada](https://github.com/diyardemir47/NotesApp/assets/99801830/55579690-cc2b-4feb-8692-fc94c01b9938)
 
 ## Overview
 
