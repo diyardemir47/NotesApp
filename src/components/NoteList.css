@@ -1,0 +1,47 @@
+/* NoteList.css */
+.note-list {
+    list-style: none;
+    padding: 0;
+    max-height: 300px; /* Adjust the height based on your preference */
+    overflow-y: auto;
+    scrollbar-color: #6f1fb1 #f5f5f5; /* Adjust the scrollbar color */
+  }
+  
+  .note-li {
+    background-color: #f5f5f5;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .note-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #ff6961;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .add-note {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  input {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  

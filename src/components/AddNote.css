@@ -1,0 +1,47 @@
+/* AddNote.css */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 20px auto;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #6f1fb1;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #6f1fb1;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="submit"] {
+    background-color: #6f1fb1;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #45a049;
+    outline: none;
+  }
+  

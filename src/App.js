@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// Your main application file
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-function App() {
+// App.js
+import './components/styles.css'; // Import the CSS file
+
+import { NoteList } from './components/NoteList';
+import { AddNote } from './components/AddNote';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="page-container">
+      <h1 style={{ textAlign: 'center' }}>
+        📝 Notes App
+      </h1>
+    <NoteList/>
+
     </div>
   );
-}
+};
 
 export default App;
